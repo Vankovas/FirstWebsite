@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url("../img/background.png") repeat;
+  color: white;
+  font-size: 13.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px 0;
+  background: #F9F7ED;
+}
+
+.logo {
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.navBar {
+  height: 50px;
+  background-color: #333;
+}
+
+.navBox {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+.navBtn {
+  float: left;
+}
+
+.navBtn a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navBtn a:hover {
+  background: #4D4D4D;
+}
+
+.log-button {
+  background-color: #78c4e2;
+  cursor: pointer;
+}
+
+.register-button {
+  background: #f44289;
+  cursor: pointer;
+}
+
+.log-button:hover,
+.logout-button:hover {
+  opacity: 0.8;
+}
+
+.logout-button {
+  background: #e57b7b;
+}
+
+.search-container {
+  float: right;
+  margin: 10px 10px 0 0;
+  position: relative;
+}
+
+.search {
+  width: 230px;
+  color: lightblue;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  background: transparent;
+  border-width: 0 0 1px 0;
+  border-color: beige;
+  border-style: solid;
+}
+
+.search:focus {
+  color: white;
+  outline: none;
+  border-color: lightblue;
+}
+
+.search:focus + button {
+  color: lightblue;
+}
+
+.search::placeholder {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.search-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  color: white;
+  font-size: 13px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.content {
+  padding: 1px 0;
+  background: #4D4D4D;
+}
+
+.navBarLeft,
+.navBarRight {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navBarLeft {
+  width: 20%;
+  background-color: #333333;
+}
+
+.navBarRight {
+  width: 79%;
+}
+
+.navBoxLeft {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #606060;
+}
+
+.navBtnLeft a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+  text-decoration: none;
+  transition: 0.3s background ease-out;
+}
+
+.navBtnLeft a:hover {
+  background: #4D4D4D;
+}
+
+footer {
+  clear: both;
+  height: 50px;
+  line-height: 50px;
+  background: #333;
+}
+
+footer .copyright {
+  margin: 16px 0 0 16px;
+}
